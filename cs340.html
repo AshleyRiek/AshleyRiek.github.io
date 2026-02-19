@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS 340 | Ashley Riek</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="navbar">
+      <div class="brand">
+        <div class="brand-badge"><span>AR</span></div>
+        <div>
+          Ashley Riek<br/>
+          <small>CS 499 ePortfolio</small>
+        </div>
+      </div>
+      <nav class="navlinks">
+        <a href="index.html">Self-Assessment</a>
+        <a href="artifacts.html">Artifacts</a>
+        <a href="code-review.html">Code Review</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>CS 340: Databases</h1>
+      <p>Artifact demonstrating database integration, data handling, validation, and professional implementation practices.</p>
+      <div class="pills">
+        <div class="pill"><span class="dot"></span>Data Modeling</div>
+        <div class="pill"><span class="dot"></span>Validation</div>
+        <div class="pill green"><span class="dot"></span>Integration</div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card span-7">
+        <h2>Downloads</h2>
+        <p>Files are stored in <span class="kbd">assets/files/cs340/</span>.</p>
+
+        <div class="btnrow">
+          <a class="btn primary" href="assets/files/cs340/CS340_enhanced.zip">Download Enhanced (ZIP)</a>
+          <a class="btn" href="assets/files/cs340/CS340_narrative.docx">Download Narrative (DOCX)</a>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>Summary of Enhancement</h2>
+        <p>
+          This enhancement strengthens the database-focused components of the application by improving data handling,
+          validation, and integration practices. Updates emphasize robust CRUD behavior, clearer organization of database
+          operations, and safeguards that reduce the risk of incorrect or unsafe data being stored or displayed.
+        </p>
+
+        <h2>CS 499 Outcomes Demonstrated</h2>
+        <ul>
+          <li>Computing practices and tools applied to deliver value through a database-driven solution</li>
+          <li>Secure mindset: explicit validation and safer data handling patterns</li>
+          <li>Professional-quality documentation and organized project structure</li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>Optional: Original Version</h2>
+        <p>
+          The original (pre-enhancement) version is included within the enhanced download for comparison.
+          If a separate original ZIP is later added, this page can be updated to link to it directly.
+        </p>
+      </article>
+
+      <aside class="card span-5">
+        <h2>Navigation</h2>
+        <div class="btnrow">
+          <a class="btn" href="cs300.html">Back: CS 300</a>
+          <a class="btn" href="cs360.html">Next: CS 360</a>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>Folder Path</h2>
+        <p><span class="kbd">assets/files/cs340/</span></p>
+        <p><small>Current files: CS340_enhanced.zip, CS340_narrative.docx</small></p>
+      </aside>
+    </section>
+
+    <div class="footer">
+      <div>© <span id="year"></span> Ashley Riek</div>
+      <div><small><a href="artifacts.html">Back to Artifacts</a></small></div>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

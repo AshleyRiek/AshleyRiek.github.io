@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS 300 | Ashley Riek</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="navbar">
+      <div class="brand">
+        <div class="brand-badge"><span>AR</span></div>
+        <div>
+          Ashley Riek<br/>
+          <small>CS 499 ePortfolio</small>
+        </div>
+      </div>
+      <nav class="navlinks">
+        <a href="index.html">Self-Assessment</a>
+        <a href="artifacts.html">Artifacts</a>
+        <a href="code-review.html">Code Review</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>CS 300: Algorithms & Data Structures</h1>
+      <p>Artifact demonstrating algorithmic design choices, data structure usage, and trade-off management.</p>
+      <div class="pills">
+        <div class="pill"><span class="dot"></span>Efficiency</div>
+        <div class="pill"><span class="dot"></span>Data Structures</div>
+        <div class="pill green"><span class="dot"></span>Trade-offs</div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card span-7">
+        <h2>Downloads</h2>
+        <p>Files are stored in <span class="kbd">assets/files/cs300/</span>.</p>
+
+        <div class="btnrow">
+          <a class="btn primary" href="assets/files/cs300/CS300_enhanced.zip">Download Enhanced (ZIP)</a>
+          <a class="btn" href="assets/files/cs300/CS300_narrative.docx">Download Narrative (DOCX)</a>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>Summary of Enhancement</h2>
+        <p>
+          This enhancement focuses on improving algorithmic efficiency and strengthening the use of data structures
+          to support cleaner, more maintainable logic. Updates prioritize readability, correct handling of data,
+          and clearer trade-off reasoning between approaches.
+        </p>
+
+        <h2>CS 499 Outcomes Demonstrated</h2>
+        <ul>
+          <li>Design and evaluate solutions using algorithmic principles and CS practices</li>
+          <li>Manage trade-offs in design choices (efficiency vs. clarity/maintainability)</li>
+          <li>Communicate technical work clearly through professional presentation</li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>Optional: Original Version</h2>
+        <p>
+          The original (pre-enhancement) version is included inside the enhanced download as a reference for comparison.
+          If a separate original ZIP is later added, this page will link it directly.
+        </p>
+      </article>
+
+      <aside class="card span-5">
+        <h2>Navigation</h2>
+        <div class="btnrow">
+          <a class="btn" href="cs360.html">Back: CS 360</a>
+          <a class="btn" href="cs340.html">Next: CS 340</a>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>Folder Path</h2>
+        <p><span class="kbd">assets/files/cs300/</span></p>
+        <p><small>Current files: CS300_enhanced.zip, CS300_narrative.docx</small></p>
+      </aside>
+    </section>
+
+    <div class="footer">
+      <div>© <span id="year"></span> Ashley Riek</div>
+      <div><small><a href="artifacts.html">Back to Artifacts</a></small></div>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

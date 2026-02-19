@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code Review | Ashley Riek</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="navbar">
+      <div class="brand">
+        <div class="brand-badge"><span>AR</span></div>
+        <div>
+          Ashley Riek<br/>
+          <small>CS 499 ePortfolio</small>
+        </div>
+      </div>
+      <nav class="navlinks">
+        <a href="index.html">Self-Assessment</a>
+        <a href="artifacts.html">Artifacts</a>
+        <a class="active" href="code-review.html">Code Review</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Informal Code Review</h1>
+      <p>
+        This code review walks through the original functionality, analyzes improvement areas (structure, logic, efficiency,
+        security, testing, documentation), and explains planned enhancements aligned to the CS 499 outcomes.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card span-7">
+        <h2>Video Link</h2>
+        <p class="note">
+          Add your final hosted video link here when ready (Unlisted YouTube is easiest).  
+          For now, this page meets UI/UX structure and clearly indicates where the code review is presented.
+        </p>
+
+        <div class="btnrow">
+          <a class="btn primary" href="#" onclick="alert('Replace this link with your hosted video URL when ready.'); return false;">
+            Add Video Link
+          </a>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>What This Review Covers</h2>
+        <ul>
+          <li><strong>Existing functionality:</strong> walkthrough of features before enhancements</li>
+          <li><strong>Code analysis:</strong> structure, logic, efficiency, security, testing, commenting, documentation</li>
+          <li><strong>Enhancement plan:</strong> mapping improvements to outcomes across CS 360 / CS 300 / CS 340</li>
+        </ul>
+      </article>
+
+      <aside class="card span-5">
+        <h2>Outcome Alignment (At-a-Glance)</h2>
+        <ul>
+          <li><strong>Collaboration:</strong> explains code review approach for peers/managers</li>
+          <li><strong>Communication:</strong> clear, audience-appropriate walkthrough</li>
+          <li><strong>Algorithms:</strong> improvement targets for efficiency and trade-offs</li>
+          <li><strong>Engineering:</strong> structure, modularity, maintainability</li>
+          <li><strong>Security:</strong> validation, safe handling, and secure mindset</li>
+        </ul>
+
+        <div class="btnrow">
+          <a class="btn" href="artifacts.html">Artifacts Hub</a>
+          <a class="btn" href="index.html">Self-Assessment</a>
+        </div>
+      </aside>
+    </section>
+
+    <div class="footer">
+      <div>© <span id="year"></span> Ashley Riek</div>
+      <div><small>Next: add your video link when hosted</small></div>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

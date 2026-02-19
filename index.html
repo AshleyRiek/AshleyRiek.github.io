@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ashley Riek | CS 499 ePortfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="navbar">
+      <div class="brand">
+        <div class="brand-badge"><span>AR</span></div>
+        <div>
+          Ashley Riek<br/>
+          <small>Computer Science ePortfolio (CS 499)</small>
+        </div>
+      </div>
+      <nav class="navlinks">
+        <a class="active" href="index.html">Self-Assessment</a>
+        <a href="artifacts.html">Artifacts</a>
+        <a href="code-review.html">Code Review</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Professional Self-Assessment</h1>
+      <p>
+        This page serves as the introduction to my Computer Science ePortfolio. It summarizes the skills, values, and growth
+        I developed across the program, and it connects those strengths to the artifacts and enhancements included below.
+      </p>
+      <div class="pills">
+        <div class="pill"><span class="dot"></span>Software Design & Engineering (CS 360)</div>
+        <div class="pill"><span class="dot"></span>Algorithms & Data Structures (CS 300)</div>
+        <div class="pill green"><span class="dot"></span>Databases (CS 340)</div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card span-7">
+        <h2>Self-Assessment Draft Placeholder</h2>
+        <p class="note">
+          Replace the sections below with your finalized self-assessment when ready.
+          The portfolio is fully functional without it, but the rubric expects this to be presented first.
+        </p>
+
+        <div class="hr"></div>
+
+        <h2>1) Strengths, Goals, and Professional Preparation</h2>
+        <p>
+          <em>[Write 1–2 paragraphs]</em> Discuss how your coursework and the ePortfolio process helped you showcase your strengths,
+          shape your professional goals and values, and prepare to enter or advance in the computer science field.
+        </p>
+
+        <h2>2) Collaboration and Communication</h2>
+        <p>
+          <em>[Write 1 paragraph]</em> Discuss collaborating in team environments and communicating with stakeholders.
+          Include examples from courses and experiences, not only the artifacts.
+        </p>
+
+        <h2>3) Data Structures, Algorithms, Software Engineering, Databases, and Security</h2>
+        <p>
+          <em>[Write 2–3 paragraphs]</em> Summarize your overall skill set across these areas, emphasizing how you apply trade-offs,
+          standards, and secure practices.
+        </p>
+
+        <h2>4) How the Artifacts Fit Together</h2>
+        <p>
+          <em>[Write 1 paragraph]</em> Introduce the three artifacts and explain how they collectively demonstrate the five CS 499 outcomes.
+        </p>
+
+        <div class="btnrow">
+          <a class="btn primary" href="artifacts.html">Go to Artifacts</a>
+          <a class="btn" href="code-review.html">View Code Review</a>
+        </div>
+      </article>
+
+      <aside class="card span-5">
+        <h2>Portfolio Contents</h2>
+        <ul>
+          <li><strong>Code Review:</strong> walkthrough + enhancement plan</li>
+          <li><strong>Original + Enhanced Artifacts:</strong> downloadable files</li>
+          <li><strong>Narratives:</strong> Word documents for each enhancement</li>
+          <li><strong>UI/UX:</strong> clear navigation and logical organization</li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>Quick Links</h2>
+        <div class="btnrow">
+          <a class="btn" href="cs360.html">CS 360</a>
+          <a class="btn" href="cs300.html">CS 300</a>
+          <a class="btn" href="cs340.html">CS 340</a>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="badge"><span class="mini"></span>Hosted on GitHub Pages</div>
+        <p><small>Repository: <span class="kbd">AshleyRiek.github.io</span></small></p>
+      </aside>
+    </section>
+
+    <div class="footer">
+      <div>© <span id="year"></span> Ashley Riek</div>
+      <div><small>Last updated: <span id="updated"></span></small></div>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('updated').textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Artifacts | Ashley Riek</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="navbar">
+      <div class="brand">
+        <div class="brand-badge"><span>AR</span></div>
+        <div>
+          Ashley Riek<br/>
+          <small>CS 499 ePortfolio</small>
+        </div>
+      </div>
+      <nav class="navlinks">
+        <a href="index.html">Self-Assessment</a>
+        <a class="active" href="artifacts.html">Artifacts</a>
+        <a href="code-review.html">Code Review</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Artifacts and Enhancements</h1>
+      <p>
+        Each artifact includes original and enhanced versions (downloadable), plus a narrative describing the enhancement,
+        skills demonstrated, and alignment to CS 499 outcomes.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card span-6">
+        <h2>CS 360: Software Design & Engineering</h2>
+        <p>
+          Enhanced a mobile application to improve structure, usability, and maintainability while demonstrating secure
+          and professional development practices.
+        </p>
+        <div class="btnrow">
+          <a class="btn primary" href="cs360.html">Open CS 360 Page</a>
+        </div>
+      </article>
+
+      <article class="card span-6">
+        <h2>CS 300: Algorithms & Data Structures</h2>
+        <p>
+          Enhanced algorithmic logic and data structure usage to improve efficiency and clarity, including trade-off reasoning.
+        </p>
+        <div class="btnrow">
+          <a class="btn primary" href="cs300.html">Open CS 300 Page</a>
+        </div>
+      </article>
+
+      <article class="card span-6">
+        <h2>CS 340: Databases</h2>
+        <p>
+          Enhanced database-focused functionality with improved data handling, validation, and integration practices.
+        </p>
+        <div class="btnrow">
+          <a class="btn primary" href="cs340.html">Open CS 340 Page</a>
+        </div>
+      </article>
+
+      <aside class="card span-6">
+        <h2>Downloads Location</h2>
+        <p>
+          Place files into these folders:
+        </p>
+        <ul>
+          <li><span class="kbd">assets/files/cs360/</span></li>
+          <li><span class="kbd">assets/files/cs300/</span></li>
+          <li><span class="kbd">assets/files/cs340/</span></li>
+        </ul>
+        <p class="note">
+          Tip: keep filenames consistent (original.zip, enhanced.zip, narrative.docx). It makes grading easy.
+        </p>
+      </aside>
+    </section>
+
+    <div class="footer">
+      <div>© <span id="year"></span> Ashley Riek</div>
+      <div><small>Navigate: <a href="code-review.html">Code Review</a></small></div>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
